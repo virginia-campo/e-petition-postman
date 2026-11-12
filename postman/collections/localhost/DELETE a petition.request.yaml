@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{petitions}}/25"
+method: DELETE
+order: 5000

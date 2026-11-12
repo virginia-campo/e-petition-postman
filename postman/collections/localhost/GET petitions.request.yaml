@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{petitions}}"
+method: GET
+order: 1000

@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{petitions}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Hello World\",\r
+
+    \    \"description\": \"Corporis rerum eaque maiores et. Et ut voluptatem corporis deserunt mollitia. Quia voluptas amet id sed quam.\",\r
+
+    \    \"category\": \"Non cumque ipsum est minus.\",\r
+
+    \    \"author\": \"Jane Doe\",\r
+
+    \    \"signees\": 107446\r
+
+    }"
+order: 2000
